@@ -19,41 +19,109 @@ li, a, button {
 
 .nav_links {
     list-style: none;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    background-color: #ffffff;
+    min-height: 124px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
 }
 
-.nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-
-}
 
 .nav_links a {
     transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-    color: rgb(255, 12, 12);
+    color: rgb(81, 141, 76);
 }
 
-header {
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 5px 10%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.294);
+
+.nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+    background-color: #ffffff;
+    min-height: 124px;
 }
 
 .logo {
     cursor: pointer;
 }
 
-.top {
+.HeaderContent text {
+    flex-direction: column;
+
+    
+}
+
+
+.HeaderContent {
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 102px;
+    line-height: 96px;
+    color: #000000;
+    padding-top: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  
+    
+}
+
+
+
+.HeaderContent .recipeCTA {
+   padding-left: 150px;
+}
+
+.HeaderContent .recipeCTA button {
+    max-width: 180px;
+    max-height: 42px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.HeaderContent button img {
+    max-width: 22px;
+}
+
+.HeaderContent .recipeCTA button p {
+    max-width: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    color: #FFFFFF;
+}
+
+.HeaderContent h1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 27px;
+
+}
+.HeaderContent img {
+    max-width: 1000px;
+    padding-right: 120px;
+    padding-top: 50px;
 }
 
 h1 {
