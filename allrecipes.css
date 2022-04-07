@@ -319,17 +319,6 @@
         width: 50%;
     }
 
-    .nav-links {
-        height: 100vh;
-        width: 200px;
-        background: #000;
-        top: 0;
-        right: 0;
-        position: absolute;
-        z-index: 2;
-        text-align: left;
-    }
-
     .nav-links ul a {
         display: block;
     }
